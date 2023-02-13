@@ -1,0 +1,5 @@
+---
+generateHeadingToc: true
+---
+
+beep boop
