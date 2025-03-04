@@ -1,11 +1,10 @@
----
-title: Criando documentos para publicação acessíveis -Um guia para criar conteúdo acessível
-showPageTOC: true
----
+- - -
+title: Criando documentos para publicação acessíveis -Um guia para criar conteúdo acessível showPageTOC: true
+- - -
 
 # Criando documentos para publicação acessíveis
 
-Esta seção apresenta uma visão geral de como incorporar os princípios de conteúdo acessível listados acima em formatos de publicação específicos provavelmente adotados pelo seu periódico.
+Esta seção fornece uma visão geral de como incorporar os princípios de conteúdo acessível listados acima em formatos de publicação específicos que seu periódico pode estar usando.
 
 ## Como verificar a acessibilidade de um documento do MS Word
 
@@ -24,7 +23,7 @@ Após a execução do Verificador, os "Resultados da inspeção" exibirão uma o
 
 Clicar em um item na lista "Resultados da inspeção" levará diretamente ao problema - o item será removido dos resultados da inspeção automaticamente assim que for resolvido. Não é necessário executar o verificador novamente.
 
-Para obter mais suporte, consulte o recurso de Suporte da MS. [Melhorar a acessibilidade com o Verificador de acessibilidade](https://support.office.com/en-us/article/improve-accessibility-with-the-accessibility-checker-a16f6de0-2f39-4a2b-8bd8-5ad801426c7f#PickTab=Windows) .
+Para obter mais suporte, consulte o recurso de Suporte da MS. [Melhorar a acessibilidade com o Verificador de acessibilidade](https://support.office.com/en-us/article/improve-accessibility-with-the-accessibility-checker-a16f6de0-2f39-4a2b-8bd8-5ad801426c7f#PickTab=Windows).
 
 ## Rotulando seus documentos para publicação
 
@@ -38,7 +37,7 @@ Os periódicos on-line publicam seus artigos em uma variedade de formatos de arq
 
 ### PDF
 
-O PDF é o formato mais comum para publicação de artigos, mas pode apresentar vários problemas do ponto de vista da acessibilidade. Um dos principais problemas é que um documento de texto criado com considerações de acessibilidade em mente pode perder alguns desses recursos ao ser convertido para PDF, como marcações, texto alternativo, cabeçalhos etc. A seguir apresentamos as etapas para minimizar esses riscos:
+O PDF é o formato mais comum para publicação de artigos, mas pode apresentar vários problemas do ponto de vista da acessibilidade. Um dos principais problemas é que um documento de texto criado com considerações de acessibilidade em mente pode perder alguns desses recursos ao ser convertido para PDF, como marcações, texto alternativo, cabeçalhos etc. A seguir apresentamos as etapas para minimizar esses riscos: Aqui estão os passos a seguir para minimizar esses riscos:
 
 #### 1 - Certifique-se de que o documento de origem seja acessível
 
@@ -62,15 +61,11 @@ Caso esteja criando um documento por meio da aba Acrobat no MS Office, certifiqu
 
 Salve seu documento do Word como PDF usando a função “Salvar como”. Isso pode não preservar todos os recursos de acessibilidade, como marcações, portanto, é melhor usar o Acrobat Pro, caso esteja disponível.
 
-No Windows:
-Selecione **Arquivo> Salvar como**. Selecione “PDF” da lista de arquivos suspensos.
-Clique em “Opções” e certifique-se de que a opção **“Marcas estruturais do documento para acessibilidade”** esteja habilitada e salve o arquivo.
+No Windows: Selecione **Arquivo> Salvar como**. Selecione “PDF” da lista de arquivos suspensos. Clique em “Opções” e certifique-se de que a opção **“Marcas estruturais do documento para acessibilidade”** esteja habilitada e salve o arquivo.
 
 ![Tela de opções para salvar arquivo do MS Word no Windows com a opção de Marcas de estrutura de documento para acessibilidade marcada.](./assets/11_a11y-guide-saveas-pdf1.png)
 
-No Mac:
-Abra o menu do aplicativo **Arquivo** e selecione **Salvar como ...**
-Em **Formato de arquivo**, selecione “PDF”. Em seguida, escolha a opção **Melhor para distribuição eletrônica e acessibilidade** (**usa o serviço on-line da Microsoft**) e, em seguida, **Exportar**.
+No Mac: Abra o menu do aplicativo **Arquivo** e selecione **Salvar como ...** Em **Formato de arquivo**, selecione “PDF”. Em seguida, escolha a opção **Melhor para distribuição eletrônica e acessibilidade** (**usa o serviço on-line da Microsoft**) e, em seguida, **Exportar**.
 
 ![Tela de opções para salvar arquivo do MS Word no Windows com a opção de Marcas de estrutura de documento para acessibilidade marcada.](./assets/12_a11y-guide-saveas-pdf2.png)
 
@@ -98,7 +93,7 @@ Para instruções sobre como criar e aplicar formatação acessível em document
 
 ### XML
 
-Arquivos XML tem o potencial de serem muito acessíveis. Eles contêm marcação extensível que os divide em elementos (por exemplo, capítulos, parágrafos, tabelas, listas, notas de rodapé) e têm definição de tipo de documento (DTD) que define as regras para o documento, descreve os elementos estruturais e atributos, e informa os sistemas de computador (como tecnologias assistivas) a forma de interpretar os dados. Os arquivos XML podem ser altamente estruturados e marcados, o que fornece a oportunidade de adicionar contexto a imagens, figuras etc. A marcação semântica pode melhorar a navegação e a ordem de leitura lógica. Por exemplo, as marcações semânticas podem informar a um leitor de tela a ordem de leitura do conteúdo.
+Arquivos XML tem o potencial de serem muito acessíveis. Eles contêm marcação extensível que os divide em elementos (por exemplo, capítulos, parágrafos, tabelas, listas, notas de rodapé) e têm definição de tipo de documento (DTD) que define as regras para o documento, descreve os elementos estruturais e atributos, e informa os sistemas de computador (como tecnologias assistivas) a forma de interpretar os dados. Os arquivos XML podem ser altamente estruturados e marcados, o que fornece a oportunidade de adicionar contexto a imagens, figuras etc. A marcação semântica pode melhorar a navegação e a ordem de leitura lógica. A marcação semântica pode melhorar a navegação e a ordem de leitura lógica. Por exemplo, as marcações semânticas podem informar a um leitor de tela a ordem de leitura do conteúdo.
 
 A marcação XML é estrutural e semântica, em vez de ter qualquer relação com a forma como o conteúdo do texto deve ser apresentado, e o arquivo pode ser processado automaticamente para criar vários formatos. Muitos editores usam um fluxo de trabalho de publicação “primeiro em XML”, produzindo um arquivo XML mestre que é usado para gerar HTML, PDF, EPUB e outros formatos. Isso permite que os editores incluam todos os recursos de acessibilidade no início de seu fluxo de trabalho.
 
