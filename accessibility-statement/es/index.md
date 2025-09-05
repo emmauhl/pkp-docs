@@ -2,7 +2,7 @@
 generateHeadingToc: true
 ---
 
-# Declaración de accesibilidad para  el tema por defecto (Default theme) de OJS 3.3+ 
+# Declaración de accesibilidad para  el tema por defecto (Default theme) de OJS 3.3+
 
 ## Introducción
 
@@ -22,14 +22,14 @@ La auditoría fue mucho más allá de WCAG 2.1 o WCAG 2.2 (Borrador) Nivel AA. S
 
 La auditoría incluyó pruebas en las siguientes áreas:
 
-* Contenido textual
+* Contenido de tipo texto
 * Contenido de imagen
 * Contenido audiovisual
 * Color en contenido y design
 * Visual de páginas y contenido
 * Design de página y contenido
 * Navegación
-* Herramientas de búsqueda
+* Funciones de búsqueda
 * Widgets y complementos
 * Formularios y mecanismos de error
 * Estructura de contenido
@@ -58,7 +58,7 @@ Access Changes Everything Inc. usó Mac, PC y iPhone para probar el sitio en los
 
 ### Soluciones y barreras restantes
 
-Una vez recibido el informe de auditoría completa en diciembre de 2019, el PKP creó el [Proyecto de Accesibilidad en Github](https://github.com/pkp/pkp-lib/projects/16) para dar seguimiento a problemas específicos y el proceso para solucionarlos.  El proyecto  está abierto a los miembros de la comunidad para que puedan comunicar problemas relacionados con la accesibilidad en la interfaz del usuario y en las funcionalidades de la plataforma.
+Una vez recibido el informe de auditoría completa en diciembre de 2019, el PKP creó el [Proyecto de Accesibilidad en Github](https://github.com/pkp/pkp-lib/projects/16) para dar seguimiento a problemas específicos y el proceso para solucionarlos. El proyecto  está abierto a los miembros de la comunidad para que puedan comunicar problemas relacionados con la accesibilidad en la interfaz del usuario y en las funcionalidades de la plataforma.
 
 En 2021, Access Changes Everything Inc. condujo una auditoría de seguimiento del tema por defecto para evaluar las correcciones realizadas por los desarrolladores del PKP. La mayoría de las cuestiones identificadas en el informe inicial fueron resolvidas por PKP, o, por lo menos, alternativas aceptables fueron sugeridas por Access Changes Everything Inc.
 
@@ -66,8 +66,7 @@ Aún quedan barreras que no pudieron eliminarse por completo. Estas están siend
 
 * reCAPTCHA. Cuando se habilita en la página de registro, reCAPTCHA presenta una barrera sustancial para lectores de pantalla con dispositivos braille y usuarios con comandos de voz en un iPhone. Además, reCAPTCHA carece de un título de iFrame y una etiqueta de formulario, por lo que incluso los lectores de pantalla que logran usarlo también pueden enfrentar barreras.
 
-reCAPTCHA es un sistema y servicio de seguridad de terceros desarrollado por Google e integrado como una función opcional de OJS que se puede desactivar. El  [Plugin Honeypot de OJS](https://github.com/ulsdevteam/pkp-formHoneypot), es una de las alternativas a este sistema. 
-
+reCAPTCHA es un sistema y servicio de seguridad de terceros desarrollado por Google e integrado como una función opcional de OJS que se puede desactivar. El  [Plugin Honeypot de OJS](https://github.com/ulsdevteam/pkp-formHoneypot), es una de las alternativas a este sistema.
 * Contenido. El contenido del sitio web y el contenido publicado creado fuera de los estándares de accesibilidad pueden representar una barrera. Puede incluir, entre otros: imágenes enviadas sin texto alternativo, estructuras de encabezado mal estructuradas, enlaces inaccesibles, falta de subtítulos para las figuras y estructura incorrecta o incompleta de los datos tabulados. Aunque están fuera del alcance de Accesibilidad del tema por defecto , el PKP proporciona orientación a los editores sobre [Creando Contenido Accesible](https://docs.pkp.sfu.ca/accessible-content/).
 * Barreras restantes. Las  barreras restantes están en el [Proyecto Github de Accesibilidad del PKP](https://github.com/pkp/pkp-lib/projects/16) que continuará siendo actualizado conforme éstas sean resueltas.
 

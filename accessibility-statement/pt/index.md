@@ -2,7 +2,7 @@
 generateHeadingToc: true
 ---
 
-# Declaração de Acessibilidade do Tema Padrão do OJS 3.3+ 
+# Declaração de Acessibilidade do Tema Padrão do OJS 3.3+
 
 ## Introdução
 
@@ -39,13 +39,13 @@ A auditoria incluiu testes nas seguintes áreas:
 
 Access Changes Everything Inc. contratou diversos testadores com deficiências distintas, que usam diferentes tecnologias, para testarem diferentes partes do Tema Padrão para o OJS 3.3. A tecnologias usadas pelos testadores incluem as versões mais recentes, mas também antigas, das plataformas:
 
-* JAWS Screen Reader para navegadores Chrome e EDGE (PC e Tablet)
-* JAWS Screen Reader em navegadores Internet Explorer com Display Braille PacMate 20 (PC)
-* NVDA Screen Reader em navegadores Chrome (PC)
-* Microsoft Narrator Screen Reader no EDGE (Tablet)
-* Apple VoiceOver Screen Reader no Safari (iPhone 6)
-* Apple VoiceOver Screen Reader no Safari com 40 Cell Braille Display (Mac)
-* Apple VoiceOver Screen Reader no Safari com 40 Cell Braille Display (iPad Pro)
+* Leitor de Tela JAWS para navegadores Chrome e EDGE (PC e Tablet)
+* Leitor de Tela JAWS em navegadores Internet Explorer com Monitor Braille PacMate 20 (PC)
+* Leitor de Tela NVDA em navegadores Chrome (PC)
+* Leitor de Tela Microsoft Narrator no EDGE (Tablet)
+* Leitor de Tela Apple VoiceOver no Safari (iPhone 6)
+* Leitor de Tela Apple VoiceOver no Safari com Monitor Braille 40 Células (Mac)
+* Leitor de Tela Apple VoiceOver no Safari com Monitor Braille 40 Células (iPad Pro)
 * Dragon Naturally Speaking Premium 13 (PC)
 
 Access Changes Everything Inc. usou Mac, PC e iPhone para testar o site em navegadores Chrome e Firefox. Algumas tecnologias foram usadas na auditoria:
@@ -64,12 +64,11 @@ Em 2021, Access Changes Everything Inc. conduziu uma auditoria de acompanhamento
 
 Ainda há barreiras restantes que não puderam ser completamente eliminadas. Estas estão sendo resolvidas pelo PKP ou podem ser tratadas pela forma que o OJS é usado pelas revistas que o adotam:
 
-* reCAPTCHA: Quando habilitado na página de cadastro, reCAPTCHA apresenta uma barreira substancial para leitores de tela com dispositivos em braille e usuários com comandos de voz no iPhone. Além disso, reCAPTCHA não possui um título no elemento iFrame e um rótulo de formulário, então, mesmo os leitores de tela que consigam usar, ainda podem enfrentar barreiras.
+* reCAPTCHA: reCAPTCHA: Quando habilitado na página de cadastro, reCAPTCHA apresenta uma barreira substancial para leitores de tela com dispositivos em braille e usuários com comandos de voz no iPhone. Além disso, reCAPTCHA não possui um título no elemento iFrame e um rótulo de formulário, então, mesmo os leitores de tela que consigam usar, ainda podem enfrentar barreiras.
 
 reCAPTCHA é um sistema de segurança e serviço de terceiros desenvolvido pela Google e integrado como uma funcionalidade opcional do OJS que pode ser desabilitada. Existem alternativas, como, por exemplo, o [OJS Honeypot plugin](https://github.com/ulsdevteam/pkp-formHoneypot).
-
-* Conteúdo: Conteúdo do website e publicações criadas fora dos padrões de acessibilidade podem representar barreiras de accessibilidade. Tais barreiras podem incluir, entre outras coisas: imagens enviadas sem texto alternativo, cabeçalhos mal estruturados, links inacessíveis, falta de legendas para figuras  e estrutura incorreta ou incompleta de dados tabulados (table). Embora estejam fora do escopo de Acessibilidade do Tema Padrão, o PKP oferece orientações aos editores sobre [Criação de Conteúdo Acessível](https://docs.pkp.sfu.ca/accessible-content/).
-* Barreiras restantes: As outras barreiras restantes estão listadas no [Projeto Github de Acessibilidade do PKP](https://github.com/pkp/pkp-lib/projects/16) que continuará sendo atualizado conforme as barreiras forem sendo resolvidas.
+* Conteúdo: Conteúdo: Conteúdo do website e publicações criadas fora dos padrões de acessibilidade podem representar barreiras de accessibilidade. Tais barreiras podem incluir, entre outras coisas: imagens enviadas sem texto alternativo, cabeçalhos mal estruturados, links inacessíveis, falta de legendas para figuras  e estrutura incorreta ou incompleta de dados tabulados (table). Embora estejam fora do escopo de Acessibilidade do Tema Padrão, o PKP oferece orientações aos editores sobre [Criação de Conteúdo Acessível](https://docs.pkp.sfu.ca/accessible-content/).
+* Barreiras restantes: Barreiras restantes: As outras barreiras restantes estão listadas no [Projeto Github de Acessibilidade do PKP](https://github.com/pkp/pkp-lib/projects/16) que continuará sendo atualizado conforme as barreiras forem sendo resolvidas.
 
 ## Entre em Contato
 
